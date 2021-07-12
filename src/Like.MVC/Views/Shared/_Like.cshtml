@@ -1,0 +1,33 @@
+﻿@model Like.Application.DTO.ViewModel.ArticleViewModel
+
+<script>
+        //function RegisterLike() {
+        //    var myData = {
+        //        idArticle: "10"
+        //    }
+        //    $.ajax({
+        //        url: 'Home/Update',
+        //        type: 'POST',
+        //        dataType: "json",
+        //        contentType: 'application/json',
+        //        data: JSON.stringify(myData),
+        //        success: function (data) {
+        //            console.log(data);
+        //            var json = $.parseJSON(data);
+        //            alert(json.total);
+        //        },
+        //        error: function (data) {
+        //            console.log(data);
+        //        }
+        //    });
+        //}
+</script>
+
+<div class="row justify-content-end">
+    <div class="col-2">
+        <button type="button" class="btn btn-primary btn-lg" onclick="RegisterLike();" title="Clique aqui para curtir este post!">
+            <i class="bi bi-hand-thumbs-up"></i> Like|
+            <span id="total" class="like-count">@Model.Total</span>
+        </button>
+    </div>
+</div>

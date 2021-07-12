@@ -1,0 +1,20 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>Like.API</name>
+    </assembly>
+    <members>
+        <member name="T:Like.Service.Controllers.LikeController">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="M:Like.Service.Controllers.LikeController.GetLike(System.Int32)">
+            <summary>
+            
+            </summary>
+            <returns></returns>
+            
+        </member>
+    </members>
+</doc>
